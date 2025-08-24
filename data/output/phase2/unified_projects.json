@@ -1,0 +1,754 @@
+{
+  "unified_projects": [
+    {
+      "project_id": "proj_001",
+      "project_name": "スマートタグ・クラスタリング機能",
+      "aliases": [
+        "スマートタグ",
+        "タグクラスタリング"
+      ],
+      "status": "順調",
+      "summary": "スマートタグのプロンプト改善実験、主語の有無×クラスターサイズの組み合わせでの最適解探索、タグのねつ造問題とハルシネーション対策、生タグの精度向上とクラスタリング手法の見直しを進めている。コードレビューやメンバーとの1on1も実施。久松さんとの1on1は週1回に変更。ココナラのVOC活用事例から優先順位付けの仕組みを学習。リリースブロッカーの洗い出しも実施。",
+      "last_updated": "2025-08-23T18:39:31.774539",
+      "key_themes": [
+        "機械学習",
+        "プロンプト改善",
+        "クラスタリング",
+        "精度向上",
+        "ハルシネーション対策",
+        "コードレビュー",
+        "VOC活用",
+        "優先順位付け"
+      ],
+      "mentioned_people": [
+        "水田さん",
+        "林さん",
+        "青見さん",
+        "奥村さん",
+        "斎藤さん",
+        "大江さん",
+        "久松さん",
+        "及川さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "スマートタグのプロンプト改善実験を複数パターンで実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774133",
+          "type": "進捗報告"
+        },
+        {
+          "content": "タグのねつ造問題とハルシネーション対策の検討",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774155",
+          "type": "進捗報告"
+        },
+        {
+          "content": "生タグの精度向上とクラスタリング手法の見直し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774161",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグのリリースブロッカーの洗い出し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774189",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774198",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの技術的深掘りと全体像のバランス",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774208",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの改善に相当な時間を費やしました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774220",
+          "type": "進捗報告"
+        },
+        {
+          "content": "主語の有無、クラスターサイズ、ねつ造問題、ハルシネーション対策。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774224",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグのリリース計画: クラスターの動的化、料金と実行スピードの問題について、具体的な解決策と実装スケジュールを小林さんと詰めます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774282",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "Unit単位での管理、生タグの扱い、キーワードとスマートタグの関係性について、技術的な設計書を作成します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774295",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "スマートタグの技術的な詳細に没頭している自分と、「タグの粒度みたいなことより考えるべきことがあるのか？」と問いかける自分。この二つの自分の間で揺れ動いているのが、今の状態なのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774319",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグリリースまでの技術的課題の解決策決定",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.774347",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_002",
+      "project_name": "マルチデータソース対応",
+      "aliases": [
+        "マルチデータソース",
+        "マルチデータソース対応"
+      ],
+      "status": "停滞",
+      "summary": "マルチデータソース対応の要件整理が未完了であり、データスキーマの根本的な設計見直しの必要性が認識されている。",
+      "last_updated": "2025-08-23T18:39:31.775514",
+      "key_themes": [
+        "データ統合",
+        "要件整理",
+        "データスキーマ設計"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "マルチデータソース対応の要件整理（未完了）",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775207",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775218",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "8月15日の「CSV取り込みより先にやるべきことがあるかも → あんまりない」という迷いの記述。これは単なる優先順位の問題ではなく、プロダクトの方向性そのものへの不安の表れかもしれません。「どうやってデータを取り込めばいいのかわからない」という技術的な不明瞭さも、実は「なぜそれをやるのか」という根本的な問いへの答えが曖昧だからこそ生じているのではないでしょうか。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775224",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "マルチデータソース対応: 先延ばしになっているPRD作成を完遂します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775286",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "「マルチデータソースの要件を決めて、PRD化し、kickoff出来るようにする」という目標。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775308",
+          "type": "進捗報告"
+        },
+        {
+          "content": "マルチデータソースPRDの完成とkickoffの実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.775350",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_001",
+      "project_name": "スマートタグ・マルチデータソース",
+      "aliases": [
+        "スマートタグ",
+        "マルチデータソース",
+        "タグクラスタリング"
+      ],
+      "status": "停滞",
+      "summary": "複数のタスク（スマートタグ改善、マルチデータソース対応、タスク管理、リリース準備、技術的負債解消）が並行して存在し、優先順位付けが困難な状況。プロダクトの方向性や「何を解決すべきか」の明確化が課題となっている。スマートタグの改善には時間を費やしたが、技術的な深掘りと全体像のバランス、および顧客の声の優先順位付けが重要。",
+      "last_updated": "2025-08-23T18:39:31.776569",
+      "key_themes": [
+        "優先順位付け",
+        "プロダクトの方向性",
+        "技術的負債",
+        "顧客の声",
+        "スマートタグ",
+        "マルチデータソース"
+      ],
+      "mentioned_people": [
+        "及川さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "スマートタグのプロンプト改善実験を複数パターンで実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776141",
+          "type": "進捗報告"
+        },
+        {
+          "content": "タグのねつ造問題とハルシネーション対策の検討",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776151",
+          "type": "進捗報告"
+        },
+        {
+          "content": "生タグの精度向上とクラスタリング手法の見直し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776155",
+          "type": "進捗報告"
+        },
+        {
+          "content": "マルチデータソース対応の要件整理（未完了）",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776183",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグのリリースブロッカーの洗い出し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776186",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776194",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "8月15日の「CSV取り込みより先にやるべきことがあるかも → あんまりない」という迷いの記述。これは単なる優先順位の問題ではなく、プロダクトの方向性そのものへの不安の表れかもしれません。「どうやってデータを取り込めばいいのかわからない」という技術的な不明瞭さも、実は「なぜそれをやるのか」という根本的な問いへの答えが曖昧だからこそ生じているのではないでしょうか。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776202",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの技術的深掘りと全体像のバランス",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776205",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの改善に相当な時間を費やしました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776217",
+          "type": "進捗報告"
+        },
+        {
+          "content": "主語の有無、クラスターサイズ、ねつ造問題、ハルシネーション対策。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776221",
+          "type": "進捗報告"
+        },
+        {
+          "content": "マルチデータソース対応: 先延ばしになっているPRD作成を完遂します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776285",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "スマートタグのリリース計画: クラスターの動的化、料金と実行スピードの問題について、具体的な解決策と実装スケジュールを小林さんと詰めます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776292",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "Unit単位での管理、生タグの扱い、キーワードとスマートタグの関係性について、技術的な設計書を作成します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776307",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "「マルチデータソースの要件を決めて、PRD化し、kickoff出来るようにする」という目標。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776311",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグの技術的な詳細に没頭している自分と、「タグの粒度みたいなことより考えるべきことがあるのか？」と問いかける自分。この二つの自分の間で揺れ動いているのが、今の状態なのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776336",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "マルチデータソースPRDの完成とkickoffの実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776368",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "スマートタグリリースまでの技術的課題の解決策決定",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.776372",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_002",
+      "project_name": "ベクトル検索・類似度計算",
+      "aliases": [
+        "ベクトル",
+        "距離",
+        "類似度計算"
+      ],
+      "status": "不明",
+      "summary": "クラスターサイズが大きくなる問題や、技術的精度とビジネス価値のバランスに課題がある。セグメント分析のニーズも存在する。",
+      "last_updated": "2025-08-23T18:39:31.777458",
+      "key_themes": [
+        "ベクトル検索",
+        "類似度計算",
+        "クラスター分析",
+        "セグメント分析"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "「主語があると、多分ベクトル内の距離が遠くなるはず」という仮説",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.777247",
+          "type": "気づき・インサイト"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_003",
+      "project_name": "進捗管理・コミュニケーション改善",
+      "aliases": [
+        "進捗管理",
+        "コミュニケーション",
+        "計画",
+        "Daily MTG"
+      ],
+      "status": "停滞",
+      "summary": "メンバーの進捗が見えず、計画立案に不安がある。Daily MTGが単なる共有になっており、チームとしての目標や共通認識が薄れている。小林さんの進捗が不明瞭。",
+      "last_updated": "2025-08-23T18:39:31.778353",
+      "key_themes": [
+        "進捗管理",
+        "コミュニケーション",
+        "チームビルディング",
+        "目標設定",
+        "会議運営"
+      ],
+      "mentioned_people": [
+        "小林さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "「小林さんの進捗状況が理解できないので、不安になっている」",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778119",
+          "type": "課題"
+        },
+        {
+          "content": "各メンバーが何をやっているのか、どこで詰まっているのか、いつ終わるのか。これらが見えないことで、全体の計画が立てられない不安が募っていきました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778124",
+          "type": "課題"
+        },
+        {
+          "content": "「Daily MTGが単なる共有の時間になってしまっている」",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778133",
+          "type": "課題"
+        },
+        {
+          "content": "チームとして何を目指しているのか、今日一日で何を達成すべきなのか。これらの共通認識が薄れているからこそ、Daily MTGが単なる報告会になってしまうのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778138",
+          "type": "課題"
+        },
+        {
+          "content": "スマートタグのリリース計画: クラスターの動的化、料金と実行スピードの問題について、具体的な解決策と実装スケジュールを小林さんと詰めます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778157",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "チーム連携の改善: Daily MTGの運営方法を見直し、単なる共有から相互支援の場に変えます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778161",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "及川さんとのヒアリングで得た洞察、久松さんとの1on1頻度の調整、Daily MTGへの問題意識。これらはすべて、「本質的に重要なことは何か」を見極めようとする試みの表れです。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778192",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "Daily MTGの運営改善案の実施と効果測定",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.778212",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_004",
+      "project_name": "意思決定・優先度判断",
+      "aliases": [
+        "意思決定",
+        "優先度判断",
+        "VOC分析"
+      ],
+      "status": "不明",
+      "summary": "久松さんとの1on1頻度を減らす決断があった。VOC分析に基づいた優先度判断基準が存在する。",
+      "last_updated": "2025-08-23T18:39:31.779229",
+      "key_themes": [
+        "意思決定",
+        "優先度設定",
+        "顧客の声分析",
+        "効率化"
+      ],
+      "mentioned_people": [
+        "久松さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "「同じユーザーがずっと言っているなら、優先度低い」という判断基準。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779037",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "「出品者と購入者を分けて見たい」というセグメント分析のニーズ。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779042",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "私たちのプロダクトも、単にデータを可視化するだけでなく、「何に対応すべきか」という意思決定を支援する必要があるのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779048",
+          "type": "気づき・インサイト"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_002",
+      "project_name": "マルチデータソース対応",
+      "aliases": [
+        "マルチデータソース",
+        "マルチデータソース対応"
+      ],
+      "status": "順調",
+      "summary": "マルチデータソース対応のPRD作成を完遂し、kickoffできる状態を目指す。顧客の声の優先順位付けや意思決定支援の必要性も認識されている。",
+      "last_updated": "2025-08-23T18:39:31.780171",
+      "key_themes": [
+        "VOC分析",
+        "セグメント分析",
+        "データ可視化",
+        "意思決定支援"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "マルチデータソース対応の要件整理（未完了）",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779869",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779880",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "8月15日の「CSV取り込みより先にやるべきことがあるかも → あんまりない」という迷いの記述。これは単なる優先順位の問題ではなく、プロダクトの方向性そのものへの不安の表れかもしれません。「どうやってデータを取り込めばいいのかわからない」という技術的な不明瞭さも、実は「なぜそれをやるのか」という根本的な問いへの答えが曖昧だからこそ生じているのではないでしょうか。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779885",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "マルチデータソース対応: 先延ばしになっているPRD作成を完遂します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779945",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "「マルチデータソースの要件を決めて、PRD化し、kickoff出来るようにする」という目標。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.779967",
+          "type": "進捗報告"
+        },
+        {
+          "content": "マルチデータソースPRDの完成とkickoffの実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780008",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_001",
+      "project_name": "スマートタグ機能",
+      "aliases": [
+        "スマートタグ",
+        "タグクラスタリング"
+      ],
+      "status": "要確認",
+      "summary": "クラスターの動的化、料金と実行スピードの問題について、具体的な解決策と実装スケジュールを小林さんと調整中。技術的な設計書作成も進行中。",
+      "last_updated": "2025-08-23T18:39:31.781122",
+      "key_themes": [
+        "機械学習",
+        "パフォーマンス最適化",
+        "データベース",
+        "リリース計画"
+      ],
+      "mentioned_people": [
+        "小林さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "スマートタグのプロンプト改善実験を複数パターンで実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780779",
+          "type": "進捗報告"
+        },
+        {
+          "content": "タグのねつ造問題とハルシネーション対策の検討",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780787",
+          "type": "進捗報告"
+        },
+        {
+          "content": "生タグの精度向上とクラスタリング手法の見直し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780791",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグのリリースブロッカーの洗い出し",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780816",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780823",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの技術的深掘りと全体像のバランス",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780832",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグの改善に相当な時間を費やしました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780842",
+          "type": "進捗報告"
+        },
+        {
+          "content": "主語の有無、クラスターサイズ、ねつ造問題、ハルシネーション対策。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780846",
+          "type": "進捗報告"
+        },
+        {
+          "content": "スマートタグのリリース計画: クラスターの動的化、料金と実行スピードの問題について、具体的な解決策と実装スケジュールを小林さんと詰めます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780901",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "Unit単位での管理、生タグの扱い、キーワードとスマートタグの関係性について、技術的な設計書を作成します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780913",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "スマートタグの技術的な詳細に没頭している自分と、「タグの粒度みたいなことより考えるべきことがあるのか？」と問いかける自分。この二つの自分の間で揺れ動いているのが、今の状態なのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780937",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "スマートタグリリースまでの技術的課題の解決策決定",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.780964",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_003",
+      "project_name": "キーワード改善",
+      "aliases": [
+        "キーワード",
+        "キーワード改善"
+      ],
+      "status": "順調",
+      "summary": "キーワードの改善タスクを明確に定義し、期待値と期限を設定して林さんに依頼する。",
+      "last_updated": "2025-08-23T18:39:31.781945",
+      "key_themes": [
+        "キーワード",
+        "改善"
+      ],
+      "mentioned_people": [
+        "林さん"
+      ],
+      "information_snippets": [
+        {
+          "content": "キーワードの改善タスクを明確に定義し、期待値と期限を設定して依頼します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.781806",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "Unit単位での管理、生タグの扱い、キーワードとスマートタグの関係性について、技術的な設計書を作成します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.781811",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_004",
+      "project_name": "チーム連携改善",
+      "aliases": [
+        "チーム連携",
+        "Daily MTG"
+      ],
+      "status": "順調",
+      "summary": "Daily MTGの運営方法を見直し、単なる共有から相互支援の場へと改善する。",
+      "last_updated": "2025-08-23T18:39:31.782698",
+      "key_themes": [
+        "チーム連携",
+        "コミュニケーション"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "「Daily MTGが単なる共有の時間になってしまっている」",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.782537",
+          "type": "課題"
+        },
+        {
+          "content": "チームとして何を目指しているのか、今日一日で何を達成すべきなのか。これらの共通認識が薄れているからこそ、Daily MTGが単なる報告会になってしまうのかもしれません。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.782541",
+          "type": "課題"
+        },
+        {
+          "content": "チーム連携の改善: Daily MTGの運営方法を見直し、単なる共有から相互支援の場に変えます。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.782558",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "及川さんとのヒアリングで得た洞察、久松さんとの1on1頻度の調整、Daily MTGへの問題意識。これらはすべて、「本質的に重要なことは何か」を見極めようとする試みの表れです。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.782581",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "Daily MTGの運営改善案の実施と効果測定",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.782596",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_005",
+      "project_name": "進捗可視化",
+      "aliases": [
+        "進捗可視化"
+      ],
+      "status": "順調",
+      "summary": "各メンバーの進捗を可視化する仕組みを検討する。",
+      "last_updated": "2025-08-23T18:39:31.783440",
+      "key_themes": [
+        "進捗管理",
+        "可視化"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "各メンバーの進捗を可視化する仕組みも検討します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.783312",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "チームメンバーとの期待値調整と進捗可視化の仕組み導入",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.783346",
+          "type": "ネクストアクション"
+        }
+      ]
+    },
+    {
+      "project_id": "proj_002",
+      "project_name": "マルチデータソース対応",
+      "aliases": [
+        "マルチデータソース",
+        "マルチデータソース対応"
+      ],
+      "status": "不明",
+      "summary": "プロジェクトのキックオフは完了したが、現在の進捗や具体的な課題に関する情報は不足している。複数のタスクを並行して行うことによる集中力の低下や、日々の業務の断片化が示唆されている。",
+      "last_updated": "2025-08-23T18:39:31.784257",
+      "key_themes": [
+        "マルチデータソース",
+        "タスク管理",
+        "集中力",
+        "業務効率"
+      ],
+      "mentioned_people": [],
+      "information_snippets": [
+        {
+          "content": "マルチデータソース対応の要件整理（未完了）",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784000",
+          "type": "進捗報告"
+        },
+        {
+          "content": "「なんか考えるべき物の種類がすごい増えている」という月曜日の感覚は、週を通じて解消されることはありませんでした。むしろ、日が経つにつれて増幅していったように感じます。スマートタグの改善、マルチデータソース対応、メンバーのタスク管理、リリース準備、技術的負債の解消。これらすべてが「重要」に見えて、どれから手を付けるべきか判断できない状態に陥っていました。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784009",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "8月15日の「CSV取り込みより先にやるべきことがあるかも → あんまりない」という迷いの記述。これは単なる優先順位の問題ではなく、プロダクトの方向性そのものへの不安の表れかもしれません。「どうやってデータを取り込めばいいのかわからない」という技術的な不明瞭さも、実は「なぜそれをやるのか」という根本的な問いへの答えが曖昧だからこそ生じているのではないでしょうか。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784014",
+          "type": "気づき・インサイト"
+        },
+        {
+          "content": "マルチデータソース対応: 先延ばしになっているPRD作成を完遂します。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784067",
+          "type": "ネクストアクション"
+        },
+        {
+          "content": "「マルチデータソースの要件を決めて、PRD化し、kickoff出来るようにする」という目標。",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784086",
+          "type": "進捗報告"
+        },
+        {
+          "content": "マルチデータソースPRDの完成とkickoffの実施",
+          "source_url": "weekly_review_2025-W33_snippets.jsonl",
+          "timestamp": "2025-08-23T18:39:31.784123",
+          "type": "ネクストアクション"
+        }
+      ]
+    }
+  ],
+  "extraction_metadata": {
+    "processed_files": 1,
+    "timestamp": "2025-08-23T18:39:31.784293",
+    "model_used": "gemini-2.5-flash-lite",
+    "total_snippets": 12,
+    "projects_count": 12
+  }
+}
